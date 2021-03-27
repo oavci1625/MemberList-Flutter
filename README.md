@@ -1,4 +1,4 @@
-# members_list
+# Member List
 
 This is a flutter application made by Onuralp AVCI.
 
@@ -7,7 +7,7 @@ Application has 3 different classes called "Hipo.dart", "Member.dart", and "Memb
 Hipo.dart:
   This is a simple class which has two properties:
     'position' is a string which has job position of the member
-    'yearsInHipo' is ab integer which has work experience of the member
+    'yearsInHipo' is an integer which has work experience of the member
 
 Member.dart:
   This is a relatively more complicated class. It has basic properties like name, age, location, etc.
@@ -27,3 +27,6 @@ At initialization of the program, makeRequest() method is called which gets the 
 
 Lastly, 'ADD NEW USER' button creates a new instance of member who is me (Onuralp AVCI). It is added to the memberList and at the same time filteredMemberList is also updated. User can add as many new users as they want. Scroll view let's use to see every user in one single page.
 
+
+Sample video of the app:
+https://drive.google.com/file/d/1G20TrrBEBjFbphkeONY2DTyvOOKClc2C/view?usp=sharing
