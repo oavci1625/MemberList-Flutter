@@ -153,8 +153,8 @@ class _MyHomePageState extends State<MyHomePage> {
             style: TextStyle(color: Colors.white),),
         ),
         onPressed: (){
-          Hipo myHipo = Hipo("Android developer", 0);
-          Member me = Member("Onuralp Avci", 20, "Bursa", "guthub/oavci", myHipo);
+          Hipo myHipo = Hipo("Intern", 0);
+          Member me = Member("Onuralp Avci", 20, "Bursa", "oavci1625", myHipo);
           add(me);
         },
       ),
