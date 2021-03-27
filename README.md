@@ -1,4 +1,4 @@
-# members_list
+# Member List
 
 This is a flutter application made by Onuralp AVCI.
 
