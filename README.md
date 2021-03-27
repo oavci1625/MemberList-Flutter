@@ -7,7 +7,7 @@ Application has 3 different classes called "Hipo.dart", "Member.dart", and "Memb
 Hipo.dart:
   This is a simple class which has two properties:
     'position' is a string which has job position of the member
-    'yearsInHipo' is ab integer which has work experience of the member
+    'yearsInHipo' is an integer which has work experience of the member
 
 Member.dart:
   This is a relatively more complicated class. It has basic properties like name, age, location, etc.
