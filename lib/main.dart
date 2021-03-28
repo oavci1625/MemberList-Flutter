@@ -68,6 +68,13 @@ class _MyHomePageState extends State<MyHomePage> {
       //Update UI
     });
   }
+  
+  AppBar buildAppBar(BuildContext context) {
+    return new AppBar(
+        title: new Text('Members'),
+        actions: [searchBar.getSearchAction(context)]
+    );
+  }
 
   @override initState(){
     this.makeRequest();
@@ -87,12 +94,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  AppBar buildAppBar(BuildContext context) {
-    return new AppBar(
-        title: new Text('Members'),
-        actions: [searchBar.getSearchAction(context)]
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
