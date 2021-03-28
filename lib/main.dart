@@ -62,10 +62,11 @@ class _MyHomePageState extends State<MyHomePage> {
     filteredMembers.list.clear();
     for(int i = 0; i < members.list.length; i++){
       if( members.list[i].name.toLowerCase().contains(name.toLowerCase()))
-        setState(() {
-          filteredMembers.list.add(members.list[i]);
-        });
+        filteredMembers.list.add(members.list[i]);
     }
+    setState(() {
+      //Update UI
+    });
   }
 
   @override initState(){
